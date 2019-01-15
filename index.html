@@ -2,22 +2,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
+    <title>Classic Arcade Game Clone</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Finish modal -->
-    <div class="finish modal_bkgd hide">
-        <div class="modal_body">
-            <div class="modal_stats">
-                <p>You Won!</p>
-                <h1>Congratulations</h1>
-            </div>
-
-            <div class="modal_btns">
-                <button class="modal_btn btn_reply">Replay</button>
-            </div>
-        </div>
+    <div id="hide">
+        <h2 class="blink">You Won!!!</h2>
+        <p>Game <b>Restarts in about 10 Secs.</b></p>
+        <p>This is just the minimum requirement of this program. I will continue to develop it with time.</p>
+        <p><b>Want to end this game? <a href="javascript:close_window();">Click Me!</a></b></p>
     </div>
 
     <script src="js/resources.js"></script>
