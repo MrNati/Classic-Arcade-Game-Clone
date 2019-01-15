@@ -1,3 +1,53 @@
 body {
     text-align: center;
 }
+
+/* Finish Modal */
+
+.hide {
+    display: none;
+}
+
+.modal_bkgd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(46, 61, 73, 0.5);
+}
+
+.modal_body {
+    position: relative;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    background: #ffffff url('../images/geometry2.png');
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border:3px solid #02ccba;
+}
+
+.modal_stats {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+.modal_btns {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.modal_btn {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    border-radius:9px;
+    color:#fff;
+    font-size:15px;
+    border:1px solid #02ccba;
+    cursor: pointer;
+}
